@@ -1,3 +1,29 @@
+- # Deploying a Netflix Clone App on Kubernetes with Kubeadm
+
+## Introduction
+
+This project demonstrates how to deploy a Netflix clone web app on Kubernetes using Kubeadm. Kubernetes simplifies the deployment and management of containerized applications, providing high availability and scalability. The blog provides a step-by-step guide to containerize, deploy, and manage the app seamlessly.
+
+## Blog Link
+
+For a detailed guide, check out the [blog post](https://dhananjaykulkarni.hashnode.dev/project-5-deploying-a-netflix-clone-app-on-kubernetes-with-kubeadm) on Hashnode.
+
+## Getting Started
+
+1. Clone the Netflix Clone app from [GitHub](https://github.com/Dhananjaykul/netflix-clone-react-typescript/tree/main).
+
+2. Follow the blog instructions to set up your Kubernetes cluster with Kubeadm.
+
+3. Containerize the app using Docker and push the image to Docker Hub.
+
+4. Apply the Kubernetes deployment and service manifests to deploy the app.
+
+5. Access the deployed app and explore monitoring tools like Kubernetes Dashboard.
+
+## Contributions
+
+Feel free to contribute to the project or use it as a starting point for your own Netflix-like web app.
+
 <div align="center">
   <a href="http://netflix-clone-with-tmdb-using-react-mui.vercel.app/">
     <img src="./public/assets/netflix-logo.png" alt="Logo" width="100" height="32">
@@ -93,3 +119,7 @@ docker run --name netflix-clone-website --rm -d -p 80:80 netflix-clone
 - Replace bundler([Vite](https://vitejs.dev/guide)) with [Turbopack](https://turbo.build/pack/docs/why-turbopack). Turbopack is introduced in Next.js conf recently. It's very fast but it's nor ready to use right now. it just support Next.js, and they plan to support all others as soon as possible. so if it's ready to use, replace [Vite](https://vitejs.dev/guide) with [Turbopack](https://turbo.build/pack/docs/why-turbopack).
 - Add accessibilities for better UX.
 - Add Tests.
+
+
+
+
